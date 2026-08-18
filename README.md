@@ -1,11 +1,11 @@
 # Cloud Sec Purple Ops: Framework Integrado de Automação e Operações de Segurança
 
-Repositório desenvolvido como projeto técnico especializado em Cibersegurança, unindo conceitos de **Red Team**, **Blue Team** e **Purple Team** aplicados à automação de infraestrutura, simulação de ameaças e engenharia de detecção.
+Repositório desenvolvido como projeto técnico especializado em Cibersegurança, unindo conceitos de **Red Team**, **Blue Team**, **Purple Team** e **Infraestrutura como Código (IaC)** aplicados à automação de infraestrutura, simulação de ameaças e engenharia de detecção.
 
 ---
 
 ## 🚀 Visão Geral do Projeto
-Este projeto demonstra a capacidade de planejar, simular, detectar e mitigar ameaças cibernéticas seguindo o framework **MITRE ATT&CK**. Ele foi estruturado para validar a eficácia de controles defensivos em ambientes modernos de tecnologia.
+Este projeto demonstra a capacidade de planejar, simular, detectar e mitigar ameaças cibernéticas seguindo o framework **MITRE ATT&CK**, além de provisionar ambientes seguros utilizando práticas modernas de engenharia.
 
 ---
 
@@ -21,5 +21,8 @@ cloud-sec-purple-ops/
 ├── blue-team/
 │   └── detection-rules/
 │       └── siem_queries.kql         # Regras de detecção e consultas de SIEM (KQL)
-└── purple-team/
-    └── attack-mapping.csv           # Mapeamento de técnicas ATT&CK e métricas de cobertura
+├── purple-team/
+│   └── attack-mapping.csv           # Mapeamento de técnicas ATT&CK e métricas de cobertura
+└── terraform/
+    ├── main.tf                      # Configuração base de infraestrutura segura (IaC)
+    └── variables.tf                 # Parametrização e variáveis de ambiente
