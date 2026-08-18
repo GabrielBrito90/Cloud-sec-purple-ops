@@ -1,0 +1,3 @@
+Technique_ID,Technique_Name,Simulated_By_Red,Detected_By_Blue,Status
+T1110,Brute Force,Initial_Access_Sim.py,SIEM_Query_KQL,Mitigated
+T1078,Valid Accounts,Manual_Validation,IAM_Audit_Logs,Monitored
