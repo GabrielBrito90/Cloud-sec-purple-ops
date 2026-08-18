@@ -1,1 +1,7 @@
-
+// Regra de Detecção - Monitoramento de Múltiplas Falhas de Autenticação (T1110)
+SigninLogs
+| where ResultType != "0"
+| summarize AttemptCount = count() by UserPrincipalName, IPAddress, bin(TimeGenerated, 5m)
+| where AttemptCount > 3
+| project TimeGenerated, UserPrincipalName, IPAddress, AttemptCount
+| order by AttemptCount desc
