@@ -5,7 +5,7 @@ Repositório desenvolvido como projeto técnico especializado em Cibersegurança
 ---
 
 ## 🚀 Visão Geral do Projeto
-Este projeto demonstra a capacidade de planejar, simular, detectar e mitigar ameaças cibernéticas seguindo o framework **MITRE ATT&CK**, além de provisionar ambientes seguros utilizando práticas modernas de engenharia.
+Este projeto demonstra a capacidade de planejar, simular, detectar e mitigar ameaças cibernéticas seguindo o framework **MITRE ATT&CK**. Ele foi estruturado para validar a eficácia de controles defensivos em ambientes modernos de tecnologia.
 
 ---
 
@@ -26,3 +26,7 @@ cloud-sec-purple-ops/
 └── terraform/
     ├── main.tf                      # Configuração base de infraestrutura segura (IaC)
     └── variables.tf                 # Parametrização e variáveis de ambiente
+
+
+
+
